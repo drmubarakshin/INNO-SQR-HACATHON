@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Using Parcel with OpenLayers</title>
-    <style>#map {
+    <title>Constrained Zoom</title>
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch,requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <style>.map {
             width: 100%;
-            height: 1000px;
+            height: 400px;
         }</style>
-</head>
+<link rel="stylesheet" href="/openlayers.e31bb0bc.css"></head>
 
 <body>
-    <div id="map"></div>
+    <div id="map" class="map"></div>
     <script src="/openlayers.e31bb0bc.js"></script>
 </body>
 
